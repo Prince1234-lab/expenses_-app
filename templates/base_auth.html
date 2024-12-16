@@ -43,28 +43,24 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                 
-                    
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
+                
                           
-                            {% block content%}
+                         {% block content%}
+
+
 
                             {%endblock%}
 
-                        </div>
-                        <div class="col-md-3"></div>
+                    
 
-                    
-                    
-                   
+            
                 </div>
                 <!-- container-fluid -->
             </div>
             <!-- End Page-content -->
 
   {% comment %} footer {% endcomment %}
-     {% include "partials/_footer.html" %}          
+     {% comment %} {% include "partials/_footer.html" %}           {% endcomment %}
         </div>
         <!-- end main content-->
 
